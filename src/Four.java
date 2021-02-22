@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Four {
     public static void main(String[] args) {
+        //задание 4 - деление на 5
         Scanner in = new Scanner(System.in);
         System.out.print("Пожалуйста, введите число для проверки деления на 5: ");
         int number = in.nextInt();

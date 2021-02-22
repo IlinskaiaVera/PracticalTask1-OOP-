@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Five {
     public static void main(String[] args) {
+        //задание 5 - логический оператор "&&"
         Scanner in = new Scanner (System.in);
         System.out.print("Пожалуйста, введите первое логическое значение: ");
         boolean a = in.nextBoolean();
