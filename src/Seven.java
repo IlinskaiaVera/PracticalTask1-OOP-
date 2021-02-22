@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Seven {
     public static void main(String[] args) {
-       //задание 7 - исправление ошибок функции
+       //задание 7 - исправление ошибок метода
        Scanner in = new Scanner(System.in);
        System.out.print("Введите число, чтобы узнать, что делает данная функция: ");
        int number = in.nextInt();
