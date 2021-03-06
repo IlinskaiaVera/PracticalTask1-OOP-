@@ -14,11 +14,6 @@ public class Five {
     }
 
     private static boolean and(boolean a, boolean b) {
-        if (a == true && b == true) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return a&&b;
     }
 }

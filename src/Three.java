@@ -10,14 +10,14 @@ public class Three {
         System.out.print("Введите, сколько раз была ничья: ");
         int draw = in.nextInt();
         in = new Scanner(System.in);
-        System.out.print("Введите, сколько раз выиграла команда: ");
+        System.out.print("Введите, сколько раз проиграла команда: ");
         int lose = in.nextInt(); /*вообще можно даже не спрашивать, сколько раз проиграли,
                                          ведь очки от проигрыша всегда нулевые*/
-        int points = footballPoints(win,draw);
+        int points = footballPoints(win,draw,lose);
         System.out.printf("Количество очков, набранных футбольной командой: %s", points);
     }
 
-    private static int footballPoints(int w, int d) {
+    private static int footballPoints(int w, int d, int l) {
         return w*3 + d;
     }
 }

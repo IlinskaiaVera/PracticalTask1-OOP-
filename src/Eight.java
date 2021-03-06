@@ -17,11 +17,6 @@ public class Eight {
     }
 
     private static boolean profitableGamble(double pro, int pri, int pa) {
-        if (pro*pri>pa){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return (pro*pri>pa);
         }
     }

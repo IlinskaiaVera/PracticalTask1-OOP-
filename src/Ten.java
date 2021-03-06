@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Ten {
     public static void main(String[] args) {
+        //задание 10 - остаток от деления без использования %
         Scanner in = new Scanner(System.in);
         System.out.print("Введите делимое: ");
         int dividend = in.nextInt();

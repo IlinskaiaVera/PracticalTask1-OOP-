@@ -12,11 +12,6 @@ public class Four {
     }
 
     private static boolean divisibleByFive(int number) {
-        if (number%5 == 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
-        }
+        return number % 5 == 0;
     }
+}
